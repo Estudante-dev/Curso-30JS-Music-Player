@@ -39,8 +39,6 @@ function updatePlayer() {
     audioPlayer.src = playlist[currentSongIndex].src;
     ImgMusica.src = playlist[currentSongIndex].img;
     tituloMusica.innerHTML = playlist[currentSongIndex].titulo;
-
-    console.log(audioPlayer.src);
 }
 
 
@@ -107,8 +105,6 @@ audioPlayer.addEventListener("pause", function () {
 audioPlayer.addEventListener("timeupdate", function () {
     let segundos = Number(audioPlayer.currentTime || 0);
     let segundosMaximo = parseInt(audioPlayer.duration || 0);
-    //   console.log("🚀 ~ file: javascript.js:117 ~ segundos:", segundos)
-    //   console.log("🚀 ~ file: javascript.js:119 ~ segundosMaximo:", segundosMaximo)
     rangeAudio.setAttribute("value", segundos)
     rangeAudio.setAttribute("max", segundosMaximo)
 });
