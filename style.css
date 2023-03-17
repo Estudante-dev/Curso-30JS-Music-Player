@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.card {
+  margin-bottom: 20px;
+  width: 18rem;
+}
+
+ul li {
+  cursor: pointer;
+}
+
+ul li.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.form-range::-webkit-slider-thumb {
+  background: white;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 0rem 1rem;
+  overflow: hidden;
+  background: hsla(339, 100%, 55%, 1);
+
+  background: linear-gradient(90deg, hsla(339, 100%, 55%, 1) 0%, #090979 100%);
+
+  background: -moz-linear-gradient(90deg, hsla(339, 100%, 55%, 1) 0%, #090979 100%);
+
+  background: -webkit-linear-gradient(90deg, hsla(339, 100%, 55%, 1) 0%, #090979 100%);
+
+  filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#FF1B6B", endColorstr="#090979", GradientType=1);
+}
+
+.card-img-top {
+  max-height: 30rem;
+  object-fit: cover;
+}
