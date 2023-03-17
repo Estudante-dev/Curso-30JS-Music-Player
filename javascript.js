@@ -3,22 +3,22 @@ var playlist = [
     {
         src: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
         titulo: "SoundHelix Song 1",
-        img: "/img/img-1.jpg"
+        img: "img/img-1.jpg"
     },
     {
         src: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
         titulo: "SoundHelix Song 2",
-        img: "/img/img-2.jpg"
+        img: "img/img-2.jpg"
     },
     {
         src: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
         titulo: "SoundHelix Song 3",
-        img: "/img/img-3.jpg"
+        img: "img/img-3.jpg"
     },
     {
         src: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
         titulo: "SoundHelix Song 4",
-        img: "/img/img-4.jpg"
+        img: "img/img-4.jpg"
     }
 
 ];
